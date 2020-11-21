@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This is a paragraph.</p>
+<p>    Viestien määrä: {{ info_out}} </p>
+
+<p>This is another paragraph.</p>
+
+{% for key, value in main_info.items() %}
+<li> {{ key }} </li>
+<li> {{ value }} </li>
+{% endfor %}
+
+
+
+</body>
+</html>
